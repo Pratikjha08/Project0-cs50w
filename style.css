@@ -3,3 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --bgColor: #202124;
+}
+
+#container{
+    height: 90vh;
+    width: 100vw;
+    background-color: var(--bgColor);
+    text-align: center;
+}
+
+#container h1{
+    color: white;
+    font-size: 100px;
+}
+
+nav #navbar{
+    height: 10vh;
+    width: 100vw;
+    background-color: var(--bgColor);
+}
+
+nav #navbar a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+#container #sectionOne{
+    display: flex;
+    justify-content: center;
+}
+
+#container #sectionOne input{
+    display: block;
+    margin-bottom: 10px;
+}
