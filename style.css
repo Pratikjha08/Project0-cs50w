@@ -8,8 +8,24 @@
     --bgColor: #202124;
 }
 
+nav #navbar{
+    height: 15vh;
+    width: 100vw;
+    background-color: var(--bgColor);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+nav #navbar a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
 #container{
-    height: 90vh;
+    height: 75vh;
     width: 100vw;
     background-color: var(--bgColor);
     text-align: center;
@@ -17,26 +33,24 @@
 
 #container h1{
     color: white;
-    font-size: 100px;
+    font-size: 125px;
+    padding: 25px;
 }
 
-nav #navbar{
+#container .formSection{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+}
+
+footer #footer{
     height: 10vh;
     width: 100vw;
     background-color: var(--bgColor);
-}
-
-nav #navbar a{
     color: white;
-    font-size: 20px;
-    text-decoration: none;
-}
-#container #sectionOne{
-    display: flex;
-    justify-content: center;
-}
-
-#container #sectionOne input{
-    display: block;
-    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
 }
