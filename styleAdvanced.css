@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav #navBar{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
