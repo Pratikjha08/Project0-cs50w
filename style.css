@@ -34,7 +34,7 @@ nav #navbar a:hover{
 }
 
 #container{
-    height: 75vh;
+    height: 85vh;
     width: 100vw;
     background-color: var(--bgColor);
     text-align: center;
@@ -110,14 +110,4 @@ nav #navbar a:hover{
     font-size: 20px;
     color: white;
     background-color: var(--buttonColor);
-}
-
-footer #footer{
-    height: 10vh;
-    width: 100vw;
-    background-color: var(--bgColor);
-    color: white;
-    text-align: center;
-    padding-top: 10px;
-    font-size: 25px;
 }
