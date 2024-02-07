@@ -5,8 +5,73 @@
 }
 
 nav #navBar{
-    height: 20vh;
+    height: 18vh;
     width: 100vw;
     display: flex;
     justify-content: center;
+    border-bottom: 1px solid darkgray;
+}
+
+nav #navBar #rightNavbar{
+    height: 20vh;
+    width: 70vw;
+    color: red;
+    padding: 10px;
+}
+
+nav #navBar #leftNavbar{
+    height: 20vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+nav #navBar #leftNavbar a{
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+nav #navBar #leftNavbar a:hover{
+    text-decoration: underline;
+}
+
+main #heading{
+    margin: 10px;
+}
+
+main .formSections{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+
+}
+
+main .formSections .labels{
+    padding-right: 20px;
+    width: 200px;
+}
+
+main .formSections input{
+    height: 30px;
+    width: 700px;
+}
+
+main #button{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 27vw;
+}
+
+main #button input{
+    margin: 15px;
+    height: 40px;
+    width: 125px;
+    background-color: rgb(84, 96, 233);
+    color: white;
+    font-size: 13px;
+    border: none;
+    border-radius: 2px;
 }

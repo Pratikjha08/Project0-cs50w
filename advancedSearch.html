@@ -4,18 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="styleAdvanced.css">
 </head>
 <body>
     <nav>
         <div id="navBar">
             <div id="rightNavbar">
-                <h3>Advanced Search</h3>
+                <h2>Advanced Search</h2>
             </div>
-            <div id="leftNarbar">
+            <div id="leftNavbar">
                 <a href="imageSearch.html">Image Search</a>
                 <a href="index.html">Google Search</a>
             </div>
         </div>
     </nav>
+    <main>
+        <div id="heading">
+            <h3>Find pages with...</h3>
+        </div>
+        <div id="form">
+            <form action="https://www.google.com/search">
+                <div class="formSections">
+                    <div class="labels"><label for="one">all these words:</label></div>
+                    <input type="text" name="as_q" placeholder="Type the important words" id="one">
+                </div>
+                <div class="formSections">
+                    <div class="labels"><label for="two">this exact word or phrase:</label></div>
+                    <input type="text" name="as_epq" placeholder="Put exact words in quotes" id="two">
+                </div>
+                <div class="formSections">
+                    <div class="labels"><label for="three">Put exact words in quotes:</label></div>
+                    <input type="text" name="as_oq" placeholder="Type OR between all the words you want" id="three">
+                </div>
+                <div class="formSections">
+                    <div class="labels"><label for="four">none of these words:</label></div>
+                    <input type="text" name="as_eq" placeholder="Put a minus sign just before words that you don't want:" id="four">
+                </div>
+                <div id="button"><input type="submit" value="Advanced Search"></div>
+            </form>
+        </div>
+    </main>
 </body>
 </html>
